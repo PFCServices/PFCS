@@ -1,11 +1,10 @@
 # PFCS
-Floral Consulting Web Page
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Polites Floral Consulting Services</title>
+    <title>Consulting Firm</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,17 +34,30 @@ Floral Consulting Web Page
             text-decoration: underline;
         }
         .hero {
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             padding: 2rem;
             background-color: #e9ecef;
         }
-        .hero h1 {
+        .hero .text {
+            flex: 1;
+            padding-right: 2rem;
+        }
+        .hero .text h1 {
             margin: 0;
             font-size: 2.5rem;
         }
-        .hero p {
+        .hero .text p {
             font-size: 1.2rem;
             margin: 1rem 0;
+        }
+        .hero .image {
+            flex: 1;
+        }
+        .hero .image img {
+            max-width: 100%;
+            border-radius: 10px;
         }
         .services {
             display: flex;
@@ -76,16 +88,21 @@ Floral Consulting Web Page
 </head>
 <body>
     <header>
-        <h1>Welcome to [Polites Floral Consulting Services]</h1>
+        <h1>Welcome to [Your Consulting Firm]</h1>
     </header>
     <nav>
-        <a href="#about">About</a>
+        <a href="#about">About Us</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
     </nav>
     <section class="hero">
-        <h1>Expert Solutions for Your Retail Floral Business</h1>
-        <p>I help businesses achieve their goals with tailored consulting services.</p>
+        <div class="text">
+            <h1>Expert Solutions for Your Business</h1>
+            <p>We help businesses achieve their goals with tailored consulting services.</p>
+        </div>
+        <div class="image">
+            <img src="placeholder-image.jpg" alt="Consulting image">
+        </div>
     </section>
     <section id="services" class="services">
         <div class="service">
