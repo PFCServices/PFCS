@@ -101,7 +101,7 @@
             <p>We help businesses achieve their goals with tailored consulting services.</p>
         </div>
         <div class="image">
-            <img src="placeholder-image.jpg" alt="Consulting image">
+            <img src="[placeholder-image.jpg](https://live.staticflickr.com/65535/52763953631_cb69a2b2eb_h.jpg)" alt="Consulting image">
         </div>
     </section>
     <section id="services" class="services">
